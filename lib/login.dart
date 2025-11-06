@@ -32,7 +32,7 @@ class _LoginPageState extends State<LoginPage> {
           _otpSent = true;
         });
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text("✅ OTP sent! Check terminal for mock OTP")),
+          const SnackBar(content: Text("✅ OTP not  sent! Check terminal for mock OTP")),
         );
       } else {
         ScaffoldMessenger.of(context).showSnackBar(
